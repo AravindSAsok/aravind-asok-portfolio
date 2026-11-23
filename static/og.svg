@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#17314c" stroke-width="1" />
+    </pattern>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102744" />
+      <stop offset="1" stop-color="#0a192f" />
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="45%" r="65%">
+      <stop offset="0" stop-color="#163b54" />
+      <stop offset="1" stop-color="#0a192f" />
+    </radialGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 8 4 0 8" fill="none" stroke="#64ffda" stroke-width="1.4" />
+    </marker>
+  </defs>
+
+  <rect width="1200" height="630" fill="#071426" />
+  <rect width="1200" height="630" fill="url(#grid)" opacity=".56" />
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="88" y="154" fill="#64ffda" font-family="monospace" font-size="20" letter-spacing="4">SOFTWARE ENGINEER</text>
+    <text x="84" y="250" fill="#e6f1ff" font-size="68" font-weight="700" letter-spacing="-2">Aravind S Asok</text>
+    <text x="88" y="314" fill="#a8b2d1" font-size="31">Backend systems &amp; AI applications</text>
+    <path d="M88 357h460" stroke="#64ffda" stroke-width="2" opacity=".7" />
+    <text x="88" y="408" fill="#ccd6f6" font-family="monospace" font-size="18">Node.js  ·  TypeScript  ·  Python</text>
+    <text x="88" y="447" fill="#ccd6f6" font-family="monospace" font-size="18">PostgreSQL  ·  LLM APIs  ·  MCP</text>
+    <text x="88" y="548" fill="#64ffda" font-family="monospace" font-size="14" letter-spacing="2">RELIABLE SERVICES. INTELLIGENT WORKFLOWS.</text>
+  </g>
+
+  <g fill="none" stroke="#64ffda" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M866 222h33q22 0 22 22v19" stroke-width="2" opacity=".72" marker-end="url(#arrow)" />
+    <path d="M1054 222h-33q-22 0-22 22v19" stroke-width="2" opacity=".72" marker-end="url(#arrow)" />
+    <path d="M866 408h33q22 0 22-22v-19" stroke-width="2" opacity=".72" marker-end="url(#arrow)" />
+    <path d="M1054 408h-33q-22 0-22-22v-19" stroke-width="2" opacity=".72" marker-end="url(#arrow)" />
+    <circle cx="960" cy="315" r="114" stroke-width="1" stroke-dasharray="3 10" opacity=".42" />
+  </g>
+
+  <g font-family="monospace" text-anchor="middle">
+    <rect x="759" y="179" width="126" height="76" rx="12" fill="url(#surface)" stroke="#2a5267" />
+    <text x="822" y="224" fill="#ccd6f6" font-size="15">REST API</text>
+
+    <rect x="1035" y="179" width="126" height="76" rx="12" fill="url(#surface)" stroke="#2a5267" />
+    <text x="1098" y="224" fill="#ccd6f6" font-size="14">POSTGRES</text>
+
+    <rect x="759" y="375" width="126" height="76" rx="12" fill="url(#surface)" stroke="#2a5267" />
+    <text x="822" y="420" fill="#ccd6f6" font-size="14">LLM + RAG</text>
+
+    <rect x="1035" y="375" width="126" height="76" rx="12" fill="url(#surface)" stroke="#2a5267" />
+    <text x="1098" y="420" fill="#ccd6f6" font-size="14">MCP TOOLS</text>
+
+    <circle cx="960" cy="315" r="70" fill="#071426" stroke="#64ffda" stroke-width="2" />
+    <circle cx="960" cy="315" r="58" fill="url(#core)" stroke="#2c6571" />
+    <text x="960" y="322" fill="#64ffda" font-size="31" font-weight="700" letter-spacing="3">AI</text>
+    <text x="960" y="344" fill="#a8b2d1" font-size="8" letter-spacing="1.4">ORCHESTRATION</text>
+  </g>
+</svg>
